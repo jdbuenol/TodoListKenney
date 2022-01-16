@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+.grid-space{
+    display: grid;
+    grid-template-columns: repeat(100, 16px);
+    grid-template-rows: repeat(100, 16px);
+}
+
+.top-left-corner{
+    background-image: url(/assets/border/colored-transparent_packed_19.png);
+}
+
+.top-side{
+    background-image: url(/assets/border/colored-transparent_packed_20.png);
+}
+
+.top-right-corner{
+    background-image: url(/assets/border/colored-transparent_packed_21.png);
+}
