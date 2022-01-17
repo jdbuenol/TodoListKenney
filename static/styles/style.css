@@ -4,18 +4,138 @@ body{
 
 .grid-space{
     display: grid;
-    grid-template-columns: repeat(100, 16px);
-    grid-template-rows: repeat(100, 16px);
+    grid-template-columns: repeat(31, 48px);
+    grid-template-rows: repeat(31, 48px);
 }
 
 .top-left-corner{
-    background-image: url(/assets/border/colored-transparent_packed_19.png);
+    background-image: url(/assets/border/corner1.png);
+    background-size: 48px;
 }
 
 .top-side{
-    background-image: url(/assets/border/colored-transparent_packed_20.png);
+    background-size: 48px;
+    background-image: url(/assets/border/corner2.png);
 }
 
 .top-right-corner{
-    background-image: url(/assets/border/colored-transparent_packed_21.png);
+    background-size: 48px;
+    background-image: url(/assets/border/corner3.png);
+}
+
+.left-side{
+    background-size: 48px;
+    background-image: url(/assets/border/corner4.png);
+}
+
+.right-side{
+    background-size: 48px;
+    background-image: url(/assets/border/corner6.png);
+}
+
+.bottom-left-corner{
+    background-size: 48px;
+    background-image: url(/assets/border/corner7.png);
+}
+
+.bottom-side{
+    background-size: 48px;
+    background-image: url(/assets/border/corner8.png);
+}
+
+.bottom-right-corner{
+    background-size: 48px;
+    background-image: url(/assets/border/corner9.png);
+}
+
+.top-left-corner-box{
+    background-image: url(/assets/border/corner11.png);
+    background-size: 48px;
+}
+
+.top-side-box{
+    background-size: 48px;
+    background-image: url(/assets/border/corner12.png);
+}
+
+.top-right-corner-box{
+    background-size: 48px;
+    background-image: url(/assets/border/corner13.png);
+}
+
+.left-side-box{
+    background-size: 48px;
+    background-image: url(/assets/border/corner14.png);
+}
+
+.right-side-box{
+    background-size: 48px;
+    background-image: url(/assets/border/corner16.png);
+}
+
+.bottom-left-corner-box{
+    background-size: 48px;
+    background-image: url(/assets/border/corner17.png);
+}
+
+.bottom-side-box{
+    background-size: 48px;
+    background-image: url(/assets/border/corner18.png);
+}
+
+.bottom-right-corner-box{
+    background-size: 48px;
+    background-image: url(/assets/border/corner19.png);
+}
+
+.inner-grid{
+    display: grid;
+    grid-template-columns: repeat(28, 48px);
+    grid-template-rows: repeat(28, 48px);
+    grid-row: 2 / 31;
+    grid-column: 2 / 31;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(27, 48px);
+    grid-template-rows: repeat(27, 48px);
+    grid-row: 2 / 30;
+    grid-column: 2 / 30;
+}
+
+.inner-box{
+    grid-row: 2 / 27;
+    grid-column: 2 / 27;
+    background-color: #CFC6B8;
+    color: #964B00;
+    font: Georgia;
+}
+
+button:hover{
+    background-color: #BFB6A8;
+}
+
+.task{
+    background-color: #964B00;
+    color: #CFC6B8;
+    border: 1px solid brown;
+    height: 60px;
+}
+
+.task-list{
+    height: 900px;
+    overflow-y: auto;
+}
+
+.delete-button{
+    background-color: #964B00;
+    background-size: 60px;
+    height: 60px;
+    width: 60px;
+    background-image: url(/assets/ButtonsAndArrows/delete.png);
+}
+
+.delete-button:hover{
+    background-image: url(/assets/ButtonsAndArrows/deleteHovered.png);
 }
