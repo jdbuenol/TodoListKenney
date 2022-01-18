@@ -9,6 +9,6 @@ server.get("/", (req, res) => {
     res.render("index.ejs");
 })
 
-server.listen(5500, () => {
+server.listen(443, () => {
     console.log("Listening in port 5500");
 });
