@@ -120,19 +120,23 @@ button:hover{
     background-color: #964B00;
     color: #CFC6B8;
     border: 1px solid brown;
-    height: 60px;
+    height: 112px;
 }
 
 .task-list{
-    height: 900px;
     overflow-y: auto;
+    height: 900px;
 }
 
+.task-button{
+    background-color: #964B00;
+    height: 112;
+}
 .delete-button{
     background-color: #964B00;
-    background-size: 60px;
-    height: 60px;
-    width: 60px;
+    background-size: 112px;
+    height: 112px;
+    width: 112px;
     background-image: url(/assets/ButtonsAndArrows/delete.png);
 }
 
